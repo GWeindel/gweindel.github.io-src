@@ -13,6 +13,8 @@ DEFAULT_LANG = 'en'
 
 THEME = 'Flex'
 
+SITELOGO = 'img/profile.png'
+
 # --------------8<---------------------
 # Files and content
 
