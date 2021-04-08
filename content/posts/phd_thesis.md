@@ -2,7 +2,7 @@ Title: PhD
 Date: 2020-04-08 14:10
 Modified: 2020-04-08 14:10
 Category: posts
-Tags: PhD
+Tags: PhD, resources
 Authors: Gabriel Weindel
 
 The Ph.D. manuscript is intended to be public and will be downloable as soon as the university finishes to process the administrative tasks. This page will be updated as soon as the document is ready.
