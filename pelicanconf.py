@@ -61,8 +61,10 @@ SOCIAL = [
 
 MAIN_MENU = True
 
-MENUITEMS = (('About Me','{{ SITEURL }}/introduction.md'), ('Posts', '{{ SITEURL }}/category/posts.html'))
-
+MENUITEMS = (('About Me','https://gweindel.github.io/content/pages/presentation.html'), ('Posts', 'https://gweindel.github.io/category/posts.html'))
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = True
+USE_FOLDER_AS_CATEGORY = True
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -70,3 +72,15 @@ DEFAULT_PAGINATION = 10
 
 GITHUB_CORNER_URL = 'https://github.com/GWeindel/'
 BROWSER_COLOR = 'white'
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+
+}
+
+TYPOGRIFY = True
