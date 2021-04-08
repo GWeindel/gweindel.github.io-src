@@ -2,9 +2,12 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Gabriel Weindel'
-SITENAME = 'Personal Website'
+SITETITLE = 'Gabriel Weindel\'s website'
+SITENAME = 'Gabriel Weindel'
 SITEURL = ''
-
+SITEDESCRIPTION = "Blog posts and thoughts on cognitive science \n (under construction)."
+SITESUBTITLE = "Blog posts and thoughts on cognitive science \n (under construction)."
+THEME_COLOR = "white"
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -14,6 +17,7 @@ DEFAULT_LANG = 'en'
 THEME = 'Flex'
 
 SITELOGO = 'img/profile.png'
+FAVICON = 'img/favicon.ico'
 
 # --------------8<---------------------
 # Files and content
@@ -42,16 +46,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Links you might find useful : ', '#'),
+# 	 ('- Github &nbsp;&nbsp;&nbsp;&nbsp;', 'https://github.com/GWeindel'),
+#         ('- ORCID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 'https://orcid.org/0000-0002-7592-1686'),
+#         ('- GScholar', 'https://scholar.google.fr/citations?user=o_fW4gIAAAAJ&hl=fr&oi=ao'),)
+#	 ('- Twitter&nbsp;', 'https://twitter.com/GWeindel'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = [
+    ("twitter", "https://twitter.com/GWeindel"),
+    ("github", "https://github.com/GWeindel"),
+    ("orcid", "https://orcid.org/0000-0002-7592-1686"),
+]
+
+MAIN_MENU = True
+
+MENUITEMS = (('About Me','https://gweindel.github.io/introduction.html#introduction'), ('Posts', 'https://gweindel.github.io/category/posts.html'))
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+GITHUB_CORNER_URL = 'https://github.com/GWeindel/'
+BROWSER_COLOR = 'white'
