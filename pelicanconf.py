@@ -61,7 +61,7 @@ SOCIAL = [
 
 MAIN_MENU = True
 
-MENUITEMS = (('About Me','pages.html'), ('Posts', 'posts.html'))
+MENUITEMS = (('About Me','category/pages.html'), ('Posts', 'category/posts.html'))
 
 DEFAULT_PAGINATION = 10
 
