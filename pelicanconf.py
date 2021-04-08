@@ -27,7 +27,7 @@ FAVICON = 'img/favicon.ico'
 # inside the directory content/
 # The contents of img/ will be available at 
 # {{ SITEURL }}/img
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['img','pdfs']
 
 # If we want to create static pages,
 # we should put them in content/pages
