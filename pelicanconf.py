@@ -5,8 +5,8 @@ AUTHOR = 'Gabriel Weindel'
 SITETITLE = 'Gabriel Weindel\'s website'
 SITENAME = 'Gabriel Weindel'
 SITEURL = ''
-SITEDESCRIPTION = "Blog posts and thoughts on cognitive science \n (under construction)."
-SITESUBTITLE = "Blog posts and thoughts on cognitive science \n (under construction)."
+SITEDESCRIPTION = "Blog posts and thoughts on cognitive science (under construction)."
+SITESUBTITLE = "Blog posts and thoughts on cognitive science (under construction)."
 THEME_COLOR = "white"
 PATH = 'content'
 
