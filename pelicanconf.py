@@ -61,7 +61,7 @@ SOCIAL = [
 
 MAIN_MENU = True
 
-MENUITEMS = (('About Me','https://gweindel.github.io/pages/introduction.html'), ('Posts', 'https://gweindel.github.io/category/posts.html'))
+MENUITEMS = (('About Me','https://gweindel.github.io/pages/introduction.html'),('#','#'))#, ('Posts', 'https://gweindel.github.io/category/posts.html'))
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 USE_FOLDER_AS_CATEGORY = True
