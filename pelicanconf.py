@@ -4,7 +4,7 @@
 AUTHOR = 'Gabriel Weindel'
 SITETITLE = 'Gabriel Weindel\'s website'
 SITENAME = 'Gabriel Weindel'
-SITEURL = ''
+SITEURL = 'https://gweindel.github.io'
 SITEDESCRIPTION = "Blog posts and thoughts on cognitive science (under construction)."
 SITESUBTITLE = "Blog posts and thoughts on cognitive science (under construction)."
 THEME_COLOR = "white"
@@ -55,13 +55,13 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = [
     ("twitter", "https://twitter.com/GWeindel"),
-    ("github", "https://github.com/GWeindel"),
+#    ("github", "https://github.com/GWeindel"),
     ("orcid", "https://orcid.org/0000-0002-7592-1686"),
 ]
 
 MAIN_MENU = True
 
-MENUITEMS = (('About Me','category/pages.html'), ('Posts', 'category/posts.html'))
+MENUITEMS = (('About Me','{{ SITEURL }}/introduction.md'), ('Posts', '{{ SITEURL }}/category/posts.html'))
 
 DEFAULT_PAGINATION = 10
 
