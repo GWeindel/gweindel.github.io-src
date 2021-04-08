@@ -1,7 +1,7 @@
 Title: PhD
 Date: 2020-04-08 14:10
 Modified: 2020-04-08 14:10
-Category: content
+Category: posts
 Tags: PhD
 Authors: Gabriel Weindel
 

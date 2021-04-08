@@ -61,7 +61,7 @@ SOCIAL = [
 
 MAIN_MENU = True
 
-MENUITEMS = (('About Me','https://gweindel.github.io/introduction.html#introduction'), ('Posts', 'https://gweindel.github.io/category/posts.html'))
+MENUITEMS = (('About Me','introduction.html'), ('Posts', 'category/posts.html'))
 
 DEFAULT_PAGINATION = 10
 
