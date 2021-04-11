@@ -173,8 +173,8 @@ INDEX_PAGE_TITLE = 'Index'
 
 ##############################################################################
 
-FOOTER_TITLE = 'ABOUT GABRIEL'
-TEXT_FOOTER = 'My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
+FOOTER_TITLE = ''
+TEXT_FOOTER = ''#My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
 EMAIL = 'firstname.lastname[at]gmail.com'
 LOCATION = 'Marseille, France'
 COPYRIGHT_NOTICE = 'Website powered by Pelican, theme created by Eric Kim (https://aegis4048.github.io/) @2018'
