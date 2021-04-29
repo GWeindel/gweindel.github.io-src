@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    About {{ AUTHOR_SHORTENED }} | {{ super() }}
+{% endblock title %}
+
+{% block meta_tags_in_head %}
+    {{ super() }}
+    <link rel="canonical" href="{{ SITEURL }}/{{ ABOUT_PAGE }}">
+    <meta property="og:title" content="{{ ABOUT_PAGE_TITLE }} | {{ SITENAME|striptags|e }}"/>
+    <meta name="twitter:title" content="{{ ABOUT_PAGE_TITLE }} | {{ SITENAME|striptags|e }}"/>
+    <meta property="og:url" content="{{ SITEURL }}/{{ ABOUT_PAGE }}" />
+    <meta property="og:description" content="{{ ABOUT_PAGE_DESCRIPTION }}" />
+    <meta name="twitter:description" content="{{ ABOUT_PAGE_DESCRIPTION }}"/>
+    <meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
+    <meta property="og:article:author" content="{{ AUTHOR }}" />
+    {% from '_includes/_defaults.html' import FEATURED_IMAGE with context %}
+    {% if FEATURED_IMAGE %}
+        <meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+        <meta name="twitter:image" content="{{ FEATURED_IMAGE }}"/>
+    {% endif %}
+{% endblock meta_tags_in_head %}
+
+{% block content %}
+    <div class="about-profile-banner row align-items-center justify-content-center" align="center" style="background-image: url('{{ SITEURL }}/{{ INDEX_BANNER_IMAGE }}')">
+        <div class="about-content-center">
+            <div class="cc-profile-image">
+                <a href="#"><img id="about-profile-image" src="{{ SITEURL }}/{{ PROFILE_PHOTO_ABOUT }}"></a>
+            </div>
+            <div class="about-author">{{ AUTHOR }}</div>
+            <p class="about-author-subtitle text-white">{{ AUTHOR_SUBTITLE }}</p>
+            <a class="btn btn-primary aos-init aos-animate" href="{{ RESUME_PDF_LINK }}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">{{ RESUME_BUTTON_TEXT }}</a>
+        </div>
+    </div>
+    <div class="section about-button-container no-padding">
+       <div class="container">
+          <div class=" row justify-content-center">
+              <a class="btn btn-default btn-round btn-lg btn-icon about-button" href="{{ GITHUB_LINK }}">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+       </div>
+    </div>
+    <div class="container post">
+        <div class="section" id="about" tabindex="-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="h2 mt-3 title text-center mb-5">About</div>
+                        <hr>
+                        <p>Hello everyone, my name is Gabriel Weindel (he/him) and I am a cognitive scientist currently working at Aix-Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives.</p>
+						<p> I am mainly interested in nerdy stuff about computational models of cognition (especially decision making) and Bayesian statistics. As a trained neuropsychologist, my interest goes also to cognitive deficits associated with clinical conditions such as mental illness and brain injuries as I think that, in the long tradition of neuropsychologist, care of patients goes along with advance in scientific knowledge.</p>
+						
+						<p> If you want to access my list of published article see my google 
+<a href="https://scholar.google.fr/citations?user=o_fW4gIAAAAJ&hl=fr&oi=ao"> scholar </a> and <a href="https://orcid.org/0000-0002-7592-1686"> ORCID</a> profiles
+</p>
+<p>Please Note that the website is under construction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+

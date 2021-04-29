@@ -41,7 +41,7 @@ MARKDOWN = {
 }
 
 MARKUP = ['md']
-PLUGIN_PATHS = ['/home/gabriel/pelican-plugins/']
+PLUGIN_PATHS = ['/home/gabriel/.pelican/pelican-plugins']
 PLUGINS = ['sitemap',
            'extract_toc',
            'neighbors',
@@ -75,7 +75,7 @@ SITEMAP = {
 }
 
 # Appearance
-THEME = 'pelican-aegis-jupyter-theme'
+THEME = 'custom-aegis'
 DEFAULT_PAGINATION = False
 
 # Defaults
