@@ -41,11 +41,12 @@ MARKDOWN = {
 }
 
 MARKUP = ['md']
-PLUGIN_PATHS = ['/home/gabriel/.pelican/pelican-plugins']
+PLUGIN_PATHS = ['/home/gabriel/.pelican/pelican-plugins/']
 PLUGINS = ['sitemap',
            'extract_toc',
            'neighbors',
            'render_math',
+	   'pelican_youtube',
            'related_posts',
            'share_post',
            'series',

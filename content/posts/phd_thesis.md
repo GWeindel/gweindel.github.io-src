@@ -5,7 +5,10 @@ Category: posts
 Tags: PhD, resources
 Authors: Gabriel 
 
-The Ph.D. manuscript is intended to be public and will be downloable as soon as the university finishes to process the administrative tasks. This page will be updated as soon as the document is ready.
+Hi everyone,
 
-In the mean time you can drop a message via email (firstname.lastname[at]gmail.com) or twitter, you can also check the github repository on https://www.github.com/GWeindel/PhD_thesis.
+I had my PhD defense last month and I'm happy to share with you the manuscript that can be found on [thesis commons](https://thesiscommons.org/342zp). Along with the manuscript there is also an associated [OSF](https://osf.io/rx73c/) project page where you can find most of the code used for the analysis in the PhD manuscript, some data is still missing but will be uploaded when the chapters get published.
 
+There is also a live recording of the presentation available on [youtube](https://www.youtube.com/watch?v=-ACuGrZVuDE)
+
+Cheers !
