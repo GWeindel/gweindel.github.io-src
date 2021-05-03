@@ -19,7 +19,7 @@ __Content of the course__ :
 __Module 1__
 The first module is dedicated to linear models both as a reminder and to extend students knowledge on what can be done using linear models (prediction, factor recoding, etc.)
 
-The presentation can be found [here](https://gweindel.github.io/lecture_mixed_models_AMU_2021/Module_1.slides.html) (best to open in a separate tab)
+The presentation can be found [here](https://gweindel.github.io/lecture_mixed_models_AMU_2021/Module_1.slides.html) (best to open in a separate tab and to navigate across slides with the space bar)
 
 __Module 2__
 The second module introduces the core aspect of linear mixed models in a frequentist context and using the '''lme4''' R package. We start by illustrating the concept of maximum likelihood, hierarchies in the data and how to account for these hierarchies.
