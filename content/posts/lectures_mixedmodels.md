@@ -8,7 +8,7 @@ Summary: This is a serie of lecture I gave to doctoral students in psychology an
 
 __Introduction__
 
-This is a serie of lecture I gave to doctoral students in psychology and neuroscience at Aix-Marseille Université in April 2021. The course aimed at giving enough information and examples about mixed models to allow students to think about how they can apply such models to their data.
+This is a series of lectures I gave to doctoral students in psychology and neuroscience at Aix-Marseille Université in April 2021. The course aimed at giving enough information and examples about mixed models to allow students to think about how they can apply such models to their data.
 
 All the course is intended to be "hands-on" and therefore the R code is provided with reproducible examples (mainly simulations). The code is meant to be accessible to beginners so it remains simple and redundant (and... I'm a python user so I don't get all the tidyverse things for now).
 
@@ -17,7 +17,7 @@ All the content of the slides can be recreated as an interactive jupyter noteboo
 __Content of the course__ :
 
 __Module 1__
-The first module is dedicated to linear models both in the perspective of a reminder and of extending students knowledge with what can be done using linear models (prediction, factor recoding, etc.)
+The first module is dedicated to linear models both as a reminder and to extend students knowledge on what can be done using linear models (prediction, factor recoding, etc.)
 
 The presentation can be found [here](https://gweindel.github.io/lecture_mixed_models_AMU_2021/Module_1.slides.html) (best to open in a separate tab)
 
