@@ -77,11 +77,19 @@
                     </div>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link rem_08" href="{{ SITEURL }}/{{ ABOUT_PAGE }}">About</a>
+                    
+                        <li id="last-item" class="nav-item">
+                            <a class="nav-link rem_08" href="{{ SITEURL }}">Posts</a>
                         </li>
+                        <!--<li class="nav-item active">
+                            <a class="nav-link rem_08" href="{{ SITEURL }}/{{ RESOURCES_PAGE }}">Resources</a>
+                        </li>
+                        -->
                         <li id="last-item" class="nav-item">
                             <a class="nav-link rem_08" href="{{ SITEURL }}/{{ ARCHIVE_PAGE }}">Archive</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link rem_08" href="{{ SITEURL }}/{{ ABOUT_PAGE }}">About</a>
                         </li>
                      </ul>
                     <form id="search-form" class="form-inline my-2 my-lg-0 justify-content-center" action="{{ SITEURL }}/search.html">

@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    All Posts | {{ super() }}
+{% endblock title %}
+
+
+{% block head_description %}
+    Full resources of {{ SITENAME|striptags|e }}.
+{% endblock head_description %}
+
+{% block content %}
+<div id="resources-container" class="container resource index">
+    <resource>
+        <header>
+            <h1>{{ resource.title }}</h1>
+            <div class="row justify-content-between no-margin">
+                <h4 class="resource-category">Category > <a class="resource-category-link" href="{{ SITEURL }}/{{ ARCHIVE_PAGE }}">{{ resource.category }}</a></h4>
+                <span class="resource-date">{{ resource.locale_date }}</span>
+            </div>
+            <div class="meta meta-tag no-margin no-border">
+                <div>
+                    {% for tag in resource.tags %}container
+                        <a href="{{ SITEURL }}/{{ tag.url }}" class="tag">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% from '_includes/share_links.html' import share_links with context %}
+            {{ share_links(resource) }}
+        </header>
+        <div class="resource_content">
+            {% import '_includes/translations.html' as translations with context %}
+            {{ translations.translations_for(resource) }}
+            {{ resource.content }}
+        </div>
+        <hr/>
+        {% if resource.prev_resource or resource.next_resource %}
+        <aside>
+        <nav>
+        <ul class="resources-timeline">
+            {% if resource.prev_resource %}
+                {% set ptitle = resource.prev_resource.title|striptags|e %}
+                {% set pv_title = resource.prev_resource.title|striptags %}
+                {%if resource.prev_resource.subtitle %}
+                    {% set pv_title = pv_title + ' ' +  '<small>' + resource.prev_resource.subtitle|striptags + '</small>' %}
+                    {% set ptitle = ptitle + ' - ' + resource.prev_resource.subtitle|e %}
+                {% endif %}
+            <li class="previous-resource">« <a href="{{ SITEURL }}/{{ resource.prev_resource.url }}" title="Previous: {{ ptitle }}">{{ pv_title }}</a></li>
+            {% endif %}
+            {% if resource.next_resource %}
+                {% set ntitle = resource.next_resource.title|striptags|e %}
+                {% set nv_title = resource.next_resource.title|striptags %}
+                {%if resource.next_resource.subtitle %}
+                    {% set nv_title = nv_title + ' ' +  '<small>' + resource.next_resource.subtitle|striptags + '</small>' %}
+                    {% set ntitle = ntitle + ' - ' + resource.next_resource.subtitle|e %}
+                {% endif %}
+            <li class="next-resource"><a href="{{ SITEURL }}/{{ resource.next_resource.url }}" title="Next: {{ ntitle }}">{{ nv_title }}</a> »</li>
+            {% endif %}
+        </ul>
+        </nav>
+        </aside>
+        {% endif %}
+        <hr/>
+    </resource>
+</div>
+{% endblock content %}

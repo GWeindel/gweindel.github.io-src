@@ -13,9 +13,9 @@ AUTHOR_SHORTENED = 'Gabriel'
 AUTHOR_SUBTITLE = 'Cognitive Scientist'
 
 
-SITENAME = 'Gabriel Weindel\'s webage'
-SITESUBTITLE = u'Blog posts and thoughts on cognitive science (under construction).'
-SITE_DESCRIPTION = 'Blog posts and thoughts on cognitive science (under construction).'
+SITENAME = 'Gabriel Weindel\'s webpage'
+SITESUBTITLE = u'Blog posts, thoughts and resources about cognitive sciences'
+SITE_DESCRIPTION = 'Blog posts, thoughts and resources about cognitive sciences'
 SITEURL = ''
 FAVICON = 'favicon.ico'
 
@@ -46,14 +46,14 @@ PLUGINS = ['sitemap',
            'extract_toc',
            'neighbors',
            'render_math',
-	   'pelican_youtube',
+	   #'pelican_youtube',
            'related_posts',
            'share_post',
            'series',
            'tipue_search',
            'summary',       # auto-summarizing articles
            'feed_summary',  # use summaries for RSS, not full articles
-           'ipynb.liquid',  # for embedding notebooks
+        #   'ipynb.liquid',  # for embedding notebooks
            'liquid_tags.img',  # embedding images
            'liquid_tags.video',  # embedding videos
            'liquid_tags.include_code',  # including code blocks
@@ -96,7 +96,7 @@ CATEGORY_FEED_RSS = None
 #CLAIM_BING = "8FF1B025212A47B5B27CC47163A042F0"
 
 STATIC_PATHS = ['images', 'downloads']
-DIRECT_TEMPLATES = (('index', 'archives', 'search', '404', 'about'))
+DIRECT_TEMPLATES = (('index', 'archives', 'search', '404', 'about'))#adding resources here generates error TODO
 AUTHOR_SAVE_AS = ''
 USE_SHORTCUT_ICONS = True
 
@@ -126,6 +126,7 @@ GITHUB_LINK = 'https://github.com/GWeindel'
 
 ABOUT_PAGE = 'about.html'
 ARCHIVE_PAGE = 'archives.html'
+RESOURCES_PAGE = 'resources.html'
 
 # when developing offline, set it as False.
 USE_CDN = False
@@ -161,7 +162,7 @@ ABOUT_PAGE_TITLE = 'About me'
 
 # Archive Page
 ARCHIVE_PAGE_TITLE = 'Archive'
-#ARCHIVE_PAGE_DESCRIPTION = 'Full Archives of Pythonic Excursions'
+ARCHIVE_PAGE_DESCRIPTION = 'Archives of the posts'
 
 # landing(index) page description
 INDEX_PAGE_TITLE = 'Index'
@@ -175,10 +176,10 @@ INDEX_PAGE_TITLE = 'Index'
 ##############################################################################
 
 FOOTER_TITLE = ''
-TEXT_FOOTER = ''#My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
+TEXT_FOOTER = 'My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
 EMAIL = 'firstname.lastname[at]gmail.com'
 LOCATION = 'Marseille, France'
-COPYRIGHT_NOTICE = 'Website powered by Pelican, theme created by Eric Kim (https://aegis4048.github.io/) @2018'
+COPYRIGHT_NOTICE = 'Website powered by the Pelican python package and github pages. \\ Theme forked from "aegis" created by Eric Kim (https://aegis4048.github.io/) @2018'
 
 INCLUDE_PROGRESSBAR = True
 PROGRESSBAR_COLOR = '#24292e'
