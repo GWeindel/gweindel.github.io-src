@@ -12,7 +12,7 @@ This is a serie of lecture I gave to doctoral students in psychology and neurosc
 
 All the course is intended to be "hands-on" and therefore the R code is provided with reproducible examples (mainly simulations). The code is meant to be accessible to beginners so it remains simple and redundant (and... I'm a python user so I don't get all the tidyverse things for now).
 
-All the content of the slides can be recreated as an interactive jupyter notebook where you can easily live code inside the presentation thanks to the RISE python package. If you're interested in replicating this lecture take a look at the root repository (https://github.io/GWeindel/lecture_mixed_models_AMU_2021) with all the instructions.
+All the content of the slides can be recreated as an interactive jupyter notebook where you can easily live code inside the presentation thanks to the RISE python package. If you're interested in replicating this lecture take a look at the root repository (https://github.com/GWeindel/lecture_mixed_models_AMU_2021) with all the instructions.
 
 __Content of the course__ :
 
