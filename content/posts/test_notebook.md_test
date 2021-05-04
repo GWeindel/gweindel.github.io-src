@@ -1,0 +1,9 @@
+Title: test notebook
+Slug:
+Date: 01/01/01
+Category:
+Tags:
+Author: Gabriel
+Summary:
+
+{% notebook notebooks/lecture_part-1.ipynb %} 

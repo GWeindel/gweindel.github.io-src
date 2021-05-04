@@ -4,7 +4,7 @@ Modified: 2020-05-03 15:27
 Category: posts
 Tags: lecture, resources
 Authors: Gabriel 
-Summary: This is a serie of lecture I gave to doctoral students in psychology and neuroscience at Aix-Marseille Université in April 2021. The course aimed at giving enough information and examples about mixed models to allow students to think about how they can apply such models to their data.
+Summary: This is a series of lectures I gave to doctoral students in psychology and neuroscience at Aix-Marseille Université in April 2021. The course aimed at giving enough information and examples about mixed models to allow students to think about how they can apply such models to their data.
 
 __Introduction__
 

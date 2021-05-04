@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from pelican_jupyter import markup as nb_markup
+#from pelican_jupyter import markup as nb_markup
+from pelican_jupyter import liquid as nb_liquid
 
 import re
 import os
@@ -53,14 +54,20 @@ PLUGINS = ['sitemap',
            'tipue_search',
            'summary',       # auto-summarizing articles
            'feed_summary',  # use summaries for RSS, not full articles
-        #   'ipynb.liquid',  # for embedding notebooks
+           nb_liquid,  # for embedding notebooks
+           #'nb_markup',
            'liquid_tags.img',  # embedding images
            'liquid_tags.video',  # embedding videos
            'liquid_tags.include_code',  # including code blocks
            'liquid_tags.literal',
            'tag_cloud',
+           'representative_image'
            ]
 IGNORE_FILES = ['.ipynb_checkpoints']
+# configuring notebook integration
+LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
+                  ("IPYNB_SKIP_CSS", "False", ""), 
+                  ("IPYNB_EXPORT_TEMPLATE", "base", ""),)
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -179,7 +186,7 @@ FOOTER_TITLE = ''
 TEXT_FOOTER = 'My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
 EMAIL = 'firstname.lastname[at]gmail.com'
 LOCATION = 'Marseille, France'
-COPYRIGHT_NOTICE = 'Website powered by the Pelican python package and github pages. \\ Theme forked from "aegis" created by Eric Kim (https://aegis4048.github.io/) @2018'
+COPYRIGHT_NOTICE = 'Website powered by the Pelican python package and github pages. \n Theme forked from "aegis" created by Eric Kim (https://aegis4048.github.io/) @2018'
 
 INCLUDE_PROGRESSBAR = True
 PROGRESSBAR_COLOR = '#24292e'
