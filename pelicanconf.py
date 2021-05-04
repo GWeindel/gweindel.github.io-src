@@ -47,7 +47,7 @@ PLUGINS = ['sitemap',
            'extract_toc',
            'neighbors',
            'render_math',
-	   #'pelican_youtube',
+	       'pelican_youtube',
            'related_posts',
            'share_post',
            'series',
@@ -60,6 +60,7 @@ PLUGINS = ['sitemap',
            'liquid_tags.video',  # embedding videos
            'liquid_tags.include_code',  # including code blocks
            'liquid_tags.literal',
+           'liquid_tags.youtube',
            'tag_cloud',
            'representative_image'
            ]
