@@ -1,6 +1,6 @@
 Title: Lecture on Linear Mixed Models
-Date: 2020-05-03 15:27
-Modified: 2020-05-03 15:27
+Date: 2021-05-03 15:27
+Modified: 2021-05-03 15:27
 Category: posts
 Tags: lecture, resources
 Authors: Gabriel 
