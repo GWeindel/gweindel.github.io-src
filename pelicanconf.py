@@ -19,7 +19,7 @@ SITESUBTITLE = u'Blog posts, thoughts and resources about cognitive sciences'
 SITE_DESCRIPTION = 'Blog posts, thoughts and resources about cognitive sciences'
 SITEURL = ''
 FAVICON = 'favicon.ico'
-
+DISQUS_SITENAME = "GWeindel"
 
 # Regional Settings
 TIMEZONE = 'Europe/Paris'
