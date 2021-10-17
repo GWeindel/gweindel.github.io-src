@@ -4,7 +4,7 @@ Modified: 2021-10-18 9:12
 Category: posts
 Tags: resources, tutorial
 Authors: Gabriel 
-Summary: A brief tutorial on how to get the R packages runDMC in a jupyter environment through anaconda.
+Summary: A brief tutorial on how to get the R package runDMC in a jupyter environment through anaconda.
 
 Sorry, it's not about how to invite runDMC rappers to feature your notebook, rather it is about using the package "dynamic models of choice" ([runDMC](https://osf.io/pbwx8/)), to fit decision making models to your behavioral (and physiological) data within the environment of Jupyter.
 
