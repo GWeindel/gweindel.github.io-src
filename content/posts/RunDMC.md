@@ -8,7 +8,7 @@ Summary: A brief tutorial on how to get the R package runDMC in a jupyter enviro
 
 Sorry, it's not about how to invite runDMC rappers to feature your notebook, rather it is about using the package "dynamic models of choice" ([runDMC](https://osf.io/pbwx8/)), to fit decision making models to your behavioral (and physiological) data within the environment of Jupyter.
 
-Why you ask ? Well, I'm allergic to development environment such as Rstudio or Rmarkdown as they are, to me, not practical enough when it comes to explore your data or your analysis pipeline while keeping a record of everythin. For that I prefer the jupyter environment but installing R and it's packages can be tricky, especially with complex architectures such as the one required by runDMC. Therefore I wrote this short tutorial in case others want to use the ability of jupyter but still rely on runDMC to do your decision data anaysis.
+Why you ask ? Well, I'm allergic to development environment such as Rstudio or Rmarkdown as they are, to me, not practical enough when it comes to explore your data or your analysis pipeline while keeping a record of everything. For that I prefer the jupyter environment but installing R and it's packages can be tricky, especially with complex architectures such as the one required by runDMC. Therefore I wrote this short tutorial in case others want to use the ability of jupyter but still rely on runDMC to do your decision data anaysis.
 
 We we'll be using conda, if you do not arleady have anaconda installed download the latest version at [anaconda.com](https://docs.anaconda.com/anaconda/install/index.html).
 
@@ -38,7 +38,7 @@ And install the coda package :
 
     install.packages("packages/coda_0.19-3.tar.gz",repos=NULL,type="source")
 
-Then R and jupyter packages are not interfacing very well you need a last step to provide jupyter with the relevant locations for the R package : 
+Then R and jupyter packages are not interfacing very well you need a last step to provide jupyter with the relevant locations for the R packages : 
 
      install.packages('IRkernel') 
      IRkernel::installspec() 
