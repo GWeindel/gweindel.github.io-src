@@ -41,7 +41,11 @@ MARKDOWN = {
     }
 }
 
-MARKUP = ['md']
+MARKUP = ('md', 'ipynb')
+
+from pelican_jupyter import markup as nb_markup
+
+
 PLUGIN_PATHS = ['/home/gabriel/.pelican/pelican-plugins/']
 PLUGINS = ['sitemap',
            'extract_toc',
@@ -54,21 +58,24 @@ PLUGINS = ['sitemap',
            'tipue_search',
            'summary',       # auto-summarizing articles
            'feed_summary',  # use summaries for RSS, not full articles
-           nb_liquid,  # for embedding notebooks
-           #'nb_markup',
+#           'nb_liquid',  # for embedding notebooks
+           'nb_markup',
            'liquid_tags.img',  # embedding images
            'liquid_tags.video',  # embedding videos
            'liquid_tags.include_code',  # including code blocks
            'liquid_tags.literal',
            'liquid_tags.youtube',
+            'liquid_tags.notebook',
+            'pelican-ipynb.markup',
            'tag_cloud',
            'representative_image'
            ]
+
+#IPYNB_USE_METACELL = True
+
 IGNORE_FILES = ['.ipynb_checkpoints']
 # configuring notebook integration
-LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
-                  ("IPYNB_SKIP_CSS", "False", ""), 
-                  ("IPYNB_EXPORT_TEMPLATE", "base", ""),)
+LIQUID_CONFIGS = (("IPYNB_EXPORT_TEMPLATE", "notebook.tpl", ""), )
 SITEMAP = {
     'format': 'xml',
     'priorities': {
