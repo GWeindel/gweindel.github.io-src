@@ -15,8 +15,8 @@ AUTHOR_SUBTITLE = 'Cognitive Scientist'
 DISQUS_SITENAME = 'gweindel'
 
 SITENAME = 'Gabriel Weindel\'s webpage'
-SITESUBTITLE = u'Blog posts, thoughts and resources about cognitive sciences'
-SITE_DESCRIPTION = 'Blog posts, thoughts and resources about cognitive sciences'
+SITESUBTITLE = u'Blog posts, thoughts and resources'
+SITE_DESCRIPTION = 'Blog posts, thoughts and resources'
 SITEURL = ''
 FAVICON = 'favicon.ico'
 DISQUS_SITENAME = "GWeindel"
@@ -191,7 +191,7 @@ INDEX_PAGE_TITLE = 'Index'
 ##############################################################################
 
 FOOTER_TITLE = ''
-TEXT_FOOTER = 'Welcome ! My name is Gabriel Weindel and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives. As a researcher my interest goes to the test and application of mathematical cognitive models to the general population or to populations with cognitive deficits. See the About page for my resume.'
+TEXT_FOOTER = 'Welcome ! My name is Gabriel Weindel (he/him) and I am a cognitive scientist currently working at Aix Marseille Université in the Laboratoire de Psychologie Cognitive and Laboratoire de Neurosciences Cognitives.  See the About page for more infos and below for my email.'
 EMAIL = 'firstname.lastname[at]gmail.com'
 LOCATION = 'Marseille, France'
 COPYRIGHT_NOTICE = 'Website powered by the Pelican python package and github pages. \n Theme forked from "aegis" created by Eric Kim (https://aegis4048.github.io/) @2018'
