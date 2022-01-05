@@ -120,7 +120,7 @@ RELATED_POSTS_LABEL = 'Related Posts'       # articles that share common tags
 SHARE_POST_INTRO = 'Share This Post :'
 
 # SMO
-FEATURED_IMAGE = SITEURL + 'theme/img/stone.png'
+FEATURED_IMAGE = 'theme/img/stone.png'
 
 ENABLE_MATHJAX = True
 
