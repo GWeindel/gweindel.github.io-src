@@ -20,7 +20,6 @@ SITE_DESCRIPTION = 'Blog posts, thoughts and resources'
 SITEURL = ''
 FAVICON = 'favicon.ico'
 DISQUS_SITENAME = "GWeindel"
-FEATURED_IMAGE = SITEURL + '/custom-aegis/static/img/stone.png'
 
 # Regional Settings
 TIMEZONE = 'Europe/Paris'
@@ -121,7 +120,7 @@ RELATED_POSTS_LABEL = 'Related Posts'       # articles that share common tags
 SHARE_POST_INTRO = 'Share This Post :'
 
 # SMO
-FEATURED_IMAGE = SITEURL + '/img/stone.png'
+FEATURED_IMAGE = SITEURL + 'theme/img/stone.png'
 
 ENABLE_MATHJAX = True
 
