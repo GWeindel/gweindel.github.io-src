@@ -20,6 +20,7 @@ SITE_DESCRIPTION = 'Blog posts, thoughts and resources'
 SITEURL = ''
 FAVICON = 'favicon.ico'
 DISQUS_SITENAME = "GWeindel"
+FEATURED_IMAGE = SITEURL + '/custom-aegis/static/img/stone.png'
 
 # Regional Settings
 TIMEZONE = 'Europe/Paris'
